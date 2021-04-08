@@ -1,0 +1,87 @@
+body, th, td{
+    color: #708090;
+}
+.custom-card {
+    margin    : 2% 0 0 25%;
+    width     : 50%;
+    background: #c1c1c1;
+}
+
+.custom-button {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.custom-input {
+    width : 50%;
+    margin: 5% 25% 5% 25%;
+}
+
+.temprature-card {
+    width: 25%;
+    left : 37.5%;
+}
+
+.degree {
+    width : 30%;
+    margin: 5% 0 2% 0;
+}
+
+.temp-input {
+    width      : 50%;
+    margin-left: 25%;
+}
+.custom-table {
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 25%;
+}
+.config-card{
+background: #c1c1c1;
+}
+.table-custom-input{
+    width: 100%;
+}
+
+@media (max-width: 769px) {
+    .custom-card {
+        margin: 0;
+        width: 100%;
+        background: #c1c1c1;
+    }
+    
+    .custom-button {
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+    
+    .custom-input {
+        width : 100%;
+        margin: 0 0 5% 0;
+    }
+    
+    .temprature-card {
+        width: 100%;
+        left: 0;
+    }
+    
+    .degree {
+        width : 100%;
+    }
+    
+    .temp-input {
+        width : 100%;
+        margin-left: 0;
+    }
+    .custom-table {
+        width: 100%;
+        border: 1px solid black;
+    }
+    .config-card{
+    background: #c1c1c1;
+    }
+    .table-custom-input{
+        width: 100%;
+    }
+}
